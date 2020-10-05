@@ -51,7 +51,7 @@ describe "#translate" do
   # * retain the punctuation from the original phrase
   it "words are still capitalized & ponctuation retained" do 
     s = translate("This exercice ... is driving Me Craaazy !")
-    expect(s).to eq("Isthay xerciceeay ... siay ivingdray Emay Aaazycray !")
+    expect(s).to eq("Isthay exerciceay ... isay ivingdray Emay Aaazycray !")
   end
 
 end
