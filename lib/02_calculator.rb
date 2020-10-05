@@ -19,7 +19,5 @@ def power(num1, num2)
 end
 
 def factorial(num)
-  0.0 if num == 0
-  fact = 1.0
-  (1..num).each { |i| fact *= i }
+   Math.gamma(num+1)
 end
