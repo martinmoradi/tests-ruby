@@ -50,8 +50,8 @@ describe "#translate" do
   # * write a test asserting that capitalized words are still capitalized (but with a different initial capital letter, of course)
   # * retain the punctuation from the original phrase
   it "words are still capitalized & ponctuation retained" do 
-    s = translate("Say Hello to my little Friend, Mike !")
-    expect(s).to eq("Yasay Elloay otay ymay ittlelay Iendfray, Ikeay !")
+    s = translate("This exercice ... is driving Me Craaazy !")
+    expect(s).to eq("Isthay xerciceeay ... siay ivingdray Emay Aaazycray !")
   end
 
 end
