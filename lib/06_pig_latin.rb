@@ -34,7 +34,7 @@ def translate(sentence)
 
     elsif consonants.include?(w_dc[0])
     w_out =w_dc[1..-1] + w_dc[0] + "ay"
-
+ 
     else 
     w_out = w_dc 
 
